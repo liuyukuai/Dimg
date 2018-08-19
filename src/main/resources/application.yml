@@ -1,0 +1,14 @@
+server:
+  port: 8080
+img:
+  path: /Users/liuyukuai/Documents/develop/Dimg/img
+spring:
+  servlet:
+    multipart:
+      enabled: true
+logging:
+  level:
+   org:
+    springframework: debug
+   com:
+    itxiaoer: debug
